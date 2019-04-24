@@ -4,7 +4,7 @@ g = zeros(size(z));
 
 
 
-sig = 1./(1+exp(z));
+sig = 1./(1+exp(-z));
 g = sig.*(1-sig);
 
 
